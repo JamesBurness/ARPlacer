@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="Box_1-2.Back" size="0.160000 0.259951"/>
+        <ImageTarget name="Box_1-2.Top" size="0.160000 0.160000"/>
+        <ImageTarget name="Box_1-2.Front" size="0.160000 0.259951"/>
+        <ImageTarget name="Box_1-2.Right" size="0.160000 0.259951"/>
+        <ImageTarget name="Box_1-2.Bottom" size="0.160000 0.160000"/>
+        <ImageTarget name="Box_1-2.Left" size="0.160000 0.259951"/>
+        <ImageTarget name="Box_4-2.Back" size="0.157500 0.270154"/>
+        <ImageTarget name="Box_4-2.Top" size="0.157500 0.134976"/>
+        <ImageTarget name="Box_4-2.Front" size="0.157500 0.270154"/>
+        <ImageTarget name="Box_4-2.Right" size="0.135000 0.270000"/>
+        <ImageTarget name="Box_4-2.Bottom" size="0.157500 0.134976"/>
+        <ImageTarget name="Box_4-2.Left" size="0.135000 0.270000"/>
+        <ImageTarget name="Box_3-2.Back" size="0.295000 0.319957"/>
+        <ImageTarget name="Box_3-2.Top" size="0.295000 0.194995"/>
+        <ImageTarget name="Box_3-2.Front" size="0.295000 0.319957"/>
+        <ImageTarget name="Box_3-2.Right" size="0.195000 0.319934"/>
+        <ImageTarget name="Box_3-2.Bottom" size="0.295000 0.194995"/>
+        <ImageTarget name="Box_3-2.Left" size="0.195000 0.319934"/>
+        <ImageTarget name="Box_5-2.Back" size="0.315000 0.240030"/>
+        <ImageTarget name="Box_5-2.Top" size="0.315000 0.164902"/>
+        <ImageTarget name="Box_5-2.Front" size="0.315000 0.240030"/>
+        <ImageTarget name="Box_5-2.Right" size="0.165000 0.240000"/>
+        <ImageTarget name="Box_5-2.Bottom" size="0.315000 0.164902"/>
+        <ImageTarget name="Box_5-2.Left" size="0.165000 0.240000"/>
+        <ImageTarget name="Box_2.Back" size="0.160000 0.259951"/>
+        <ImageTarget name="Box_2.Top" size="0.160000 0.160000"/>
+        <ImageTarget name="Box_2.Front" size="0.160000 0.259951"/>
+        <ImageTarget name="Box_2.Right" size="0.160000 0.259951"/>
+        <ImageTarget name="Box_2.Bottom" size="0.160000 0.160000"/>
+        <ImageTarget name="Box_2.Left" size="0.160000 0.259951"/>
+        <MultiTarget name="Box_1-2">
+            <Part name="Box_1-2.Left" translation="-0.07999999821186066 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Box_1-2.Right" translation="0.07999999821186066 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Box_1-2.Front" translation="0 0 0.07999999821186066" rotation="AD: 1 0 0 0"/>
+            <Part name="Box_1-2.Back" translation="0 0 -0.07999999821186066" rotation="AD: 0 1 0 180"/>
+            <Part name="Box_1-2.Top" translation="0 0.12999999523162842 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Box_1-2.Bottom" translation="0 -0.12999999523162842 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="Box_4-2">
+            <Part name="Box_4-2.Left" translation="-0.07874999940395355 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Box_4-2.Right" translation="0.07874999940395355 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Box_4-2.Front" translation="0 0 0.06750000268220901" rotation="AD: 1 0 0 0"/>
+            <Part name="Box_4-2.Back" translation="0 0 -0.06750000268220901" rotation="AD: 0 1 0 180"/>
+            <Part name="Box_4-2.Top" translation="0 0.13500000536441803 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Box_4-2.Bottom" translation="0 -0.13500000536441803 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="Box_3-2">
+            <Part name="Box_3-2.Left" translation="-0.14749999344348907 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Box_3-2.Right" translation="0.14749999344348907 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Box_3-2.Front" translation="0 0 0.09749999642372131" rotation="AD: 1 0 0 0"/>
+            <Part name="Box_3-2.Back" translation="0 0 -0.09749999642372131" rotation="AD: 0 1 0 180"/>
+            <Part name="Box_3-2.Top" translation="0 0.1599999964237213 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Box_3-2.Bottom" translation="0 -0.1599999964237213 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="Box_5-2">
+            <Part name="Box_5-2.Left" translation="-0.1574999988079071 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Box_5-2.Right" translation="0.1574999988079071 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Box_5-2.Front" translation="0 0 0.08250000327825546" rotation="AD: 1 0 0 0"/>
+            <Part name="Box_5-2.Back" translation="0 0 -0.08250000327825546" rotation="AD: 0 1 0 180"/>
+            <Part name="Box_5-2.Top" translation="0 0.11999999731779099 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Box_5-2.Bottom" translation="0 -0.11999999731779099 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="Box_1">
+            <Part name="Box_2.Left" translation="-0.07999999821186066 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Box_2.Right" translation="0.07999999821186066 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Box_2.Front" translation="0 0 0.07999999821186066" rotation="AD: 1 0 0 0"/>
+            <Part name="Box_2.Back" translation="0 0 -0.07999999821186066" rotation="AD: 0 1 0 180"/>
+            <Part name="Box_2.Top" translation="0 0.12999999523162842 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Box_2.Bottom" translation="0 -0.12999999523162842 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
